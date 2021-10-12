@@ -91,7 +91,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ☑️", url=f"https://t.me/ELITEBOY_Network"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ☑️", url=f"https://t.me/ELITEBOY_UPDATES"),
         InlineKeyboardButton(
             text="ᴇʟɪᴛᴇʙᴏʏ ᴄʜᴀᴛ", url=f"https://t.me/ELITEBOY_CHAT"
         ),
