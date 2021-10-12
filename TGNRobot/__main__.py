@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴏɪ, ɪ ᴍ ᴛɢɴ ʀᴏʙᴏᴛ
+ʜᴇʏ, ɪ ᴍ ᴇʟɪᴛᴇʙᴏʏ
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! ʜɪᴛ` /help
  [❤](https://telegra.ph/file/cab6825dea9263d347831.jpg)
 """
@@ -82,18 +82,18 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴛɢɴ ʀᴏʙᴏᴛ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/TGN_Ro_bot?startgroup=true"),
+            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/ELITEBOY_ROBOT?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ 💫", url=f"https://github.com/Itsunknown-12/TGN-Robot"),
+        InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ 💫", url=f"pornhub.com"),
         InlineKeyboardButton(
             text="ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
     ],
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ☑️", url=f"https://t.me/The_Godfather_Network"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ☑️", url=f"https://t.me/ELITEBOY_Network"),
         InlineKeyboardButton(
-            text="ᴛɢɴ ᴄʜᴀᴛ", url=f"https://t.me/greatpersonxd"
+            text="ᴇʟɪᴛᴇʙᴏʏ ᴄʜᴀᴛ", url=f"https://t.me/ELITEBOY_CHAT"
         ),
     ],
     [
@@ -109,8 +109,8 @@ HELP_STRINGS = """
 START_IMG = "https://telegra.ph/file/63d1ee18f81c92d11210e.mp4"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project [Lucifer](t.me/detctective_de) \
- Supporting isnt always financial! [ ɴᴇᴛᴡᴏʀᴋ](https://t.me/Zaid_updates) \
+ You can support the project [ELITEBOY](t.me/KID_XD) \
+ Supporting isnt always financial! [ ɴᴇᴛᴡᴏʀᴋ](https://t.me/ELITEBOY_NETWORK) \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
 IMPORTED = {}
@@ -428,12 +428,12 @@ def get_help(update: Update, context: CallbackContext):
         if len(args) >= 2 and any(args[1].lower() == x for x in HELPABLE):
             module = args[1].lower()
             update.effective_message.reply_text(
-                f"Contact me in PM to get help of {module.capitalize()}",
+                f"𝘾𝙤𝙣𝙩𝙖𝙘𝙩 𝙢𝙚 𝙞𝙣 𝙋𝙈 𝙩𝙤 𝙜𝙚𝙩 𝙝𝙚𝙡𝙥 𝙤𝙛 {module.capitalize()}",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
-                                text="Help",
+                                text="𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 ❓",
                                 url="t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
@@ -444,12 +444,12 @@ def get_help(update: Update, context: CallbackContext):
             )
             return
         update.effective_message.reply_text(
-            "Contact me in PM to get the list of possible commands.",
+            "𝘾𝙤𝙣𝙩𝙖𝙘𝙩 𝙢𝙚 𝙞𝙣 𝙋𝙈 𝙩𝙤 𝙜𝙚𝙩 𝙩𝙝𝙚 𝙡𝙞𝙨𝙩 𝙤𝙛 𝙥𝙤𝙨𝙨𝙞𝙗𝙡𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨.",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="Help",
+                            text="𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 ❓",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ]
