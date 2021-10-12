@@ -223,11 +223,14 @@ def start(update: Update, context: CallbackContext):
                 timeout=60,
             )
     else:
-        update.effective_message.reply_video(
-            START_IMG, caption= "<cov❤\nI am Awake Since</code>: <code>{}</code>".format(
-                uptime            
+        update.effective_message.reply_photo(
+            START_IMG, caption= "#𝙴𝙻𝙸𝚃𝙴𝙱𝙾𝚈 𝙰𝙻𝚆𝙰𝚈𝚂 𝙾𝙿!\n<b>𝚄𝙿 𝚃𝙸𝙼𝙴 ⌚:</b> <code>{}</code>".format(
+                uptime
             ),
             parse_mode=ParseMode.HTML,
+            reply_markup=InlineKeyboardMarkup(
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/V3NOM_SUPPORT")]]
+            ),
         )
 
 
@@ -397,8 +400,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *TGNRobot*
-                 \nHere is the [Source Code](https://github.com/Itsunknown-12/TGN-Robot) .""",
+            text=""" Hi..🤗 I'm *ELITEBOY*
+                 \nHere is the [Source Code](pornhub.com) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -693,7 +696,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 😹")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "#𝙴𝙻𝙸𝚃𝙴𝙱𝙾𝚈 𝙰𝙻𝚆𝙰𝚈𝚂 𝙾𝙿")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
@@ -739,7 +742,7 @@ def main():
             updater.bot.set_webhook(url=URL + TOKEN)
 
     else:
-        LOGGER.info("Using long polling.")
+        LOGGER.info("BSDK HO GAYA BOT ON 😛.")
         updater.start_polling(timeout=15, read_latency=4, clean=True)
 
     if len(argv) not in (1, 3, 4):
