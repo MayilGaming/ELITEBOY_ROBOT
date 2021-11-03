@@ -74,15 +74,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʏ, ɪ ᴍ ᴇʟɪᴛᴇʙᴏʏ
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! ʜɪᴛ` /help
- [❤](https://telegra.ph/file/f43604ed83714a87cd635.jpg)
+ʜI I Am Mayil
+`I Am Powerfull Group Manager Any Doubt Use This Command` /help
+ [❤](https://telegra.ph/file/53a09a77ff2fbab471279.jpg)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/ELITEBOY_ROBOT?startgroup=true"),
+            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/Mayil_The_Group_Manager_Bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ 💫", url=f"pornhub.com"),
@@ -91,9 +91,9 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ☑️", url=f"https://t.me/ELITEBOY_UPDATES"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ☑️", url=f"https://t.me/mgbotslists"),
         InlineKeyboardButton(
-            text="ᴇʟɪᴛᴇʙᴏʏ ᴄʜᴀᴛ", url=f"https://t.me/ELITEBOY_CHAT"
+            text="ᴇʟɪᴛᴇʙᴏʏ ᴄʜᴀᴛ", url=f"https://t.me/MG_Support_Group"
         ),
     ],
     [
@@ -104,13 +104,13 @@ buttons = [
 
 HELP_STRINGS = """
 `ʏᴏᴜ ᴄᴀɴ ᴄʜᴏᴏꜱᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ʙᴇʟᴏᴡ, ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴀ ʙᴜᴛᴛᴏɴ..`
-ᴀʟꜱᴏ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ [❤️](https://telegra.ph/file/f43604ed83714a87cd635.jpg)"""
+ᴀʟꜱᴏ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ [❤️](https://telegra.ph/file/53a09a77ff2fbab471279.jpg)"""
 
 START_IMG = "https://telegra.ph/file/d5181a9a59ac55b47308e.mp4"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project [ELITEBOY](t.me/KID_XD) \
- Supporting isnt always financial! [ ɴᴇᴛᴡᴏʀᴋ](https://t.me/ELITEBOY_NETWORK) \
+ Supporting isnt always financial! [ ɴᴇᴛᴡᴏʀᴋ](https://t.me/MG_Support_Group) \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
 IMPORTED = {}
@@ -362,7 +362,7 @@ def layla_about_callback(update, context):
     query = update.callback_query
     if query.data == "layla_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *TGN Robot*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Mayil*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -370,10 +370,10 @@ def layla_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_TGN's licensed under the GNU General Public License v3.0_
-                 \n❍ TGN  @The_Godfather_Network
-                 \n❍ Support Group @Godfathersupport
+                 \n❍ TGN  @MG_Support_Group
+                 \n❍ Support Group @MG_Support_Group
                  \n❍ Assistant @TGN\_Assistant.
-                 \nHere is the [💾Repository](https://github.com/Itsunknown-12/TGN-Robot).
+                 \nHere is the [💾Repository](My Source Is Always Private).
                  \n\nIf you have any question about bot, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
