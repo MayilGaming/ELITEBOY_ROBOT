@@ -75,7 +75,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 HI I Am Mayil
-`I Am Powerfull Group Manager Any Doubt Use This Command` /help
+`I Am Powerfull Group Manager Pls Join Support Group And Updates Channel Any Doubt Use This Command` /help
  [❤](https://telegra.ph/file/53a09a77ff2fbab471279.jpg)
 """
 
@@ -85,7 +85,7 @@ buttons = [
             text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/Mayil_The_Group_Manager_Bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(Commands="ꜱᴏᴜʀᴄᴇ 💫", url=f"https://t.me/mgbotslists/9"),
+        InlineKeyboardButton(Commands="ꜱᴏᴜʀᴄᴇ 💫", url=f("https://t.me/mgbotslists/9"),
         InlineKeyboardButton(
             text="ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
