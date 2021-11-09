@@ -89,7 +89,7 @@ buttons = [
         InlineKeyboardButton(
             text="ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
-    [
+
         InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ☑️", url=f"https://t.me/mgbotslists"),
         InlineKeyboardButton(
             text="ᴇʟɪᴛᴇʙᴏʏ ᴄʜᴀᴛ", url=f"https://t.me/MG_Support_Group"
