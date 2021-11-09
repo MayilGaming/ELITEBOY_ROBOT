@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜI I Am Mayil
+HI I Am Mayil
 `I Am Powerfull Group Manager Any Doubt Use This Command` /help
  [❤](https://telegra.ph/file/53a09a77ff2fbab471279.jpg)
 """
@@ -85,7 +85,7 @@ buttons = [
             text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/Mayil_The_Group_Manager_Bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ 💫", url=f"pornhub.com"),
+        InlineKeyboardButton(Commands="ꜱᴏᴜʀᴄᴇ 💫", url=f"https://t.me/mgbotslists/9"),
         InlineKeyboardButton(
             text="ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
@@ -109,7 +109,7 @@ HELP_STRINGS = """
 START_IMG = "https://telegra.ph/file/d5181a9a59ac55b47308e.mp4"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project [ELITEBOY](t.me/KID_XD) \
+ You can support the project [MAYIL](t.me/MG_Support_Group) \
  Supporting isnt always financial! [ ɴᴇᴛᴡᴏʀᴋ](https://t.me/MG_Support_Group) \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -224,12 +224,12 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_photo(
-            START_IMG, caption= "#𝙴𝙻𝙸𝚃𝙴𝙱𝙾𝚈 𝙰𝙻𝚆𝙰𝚈𝚂 𝙾𝙿!\n<b>𝚄𝙿 𝚃𝙸𝙼𝙴 ⌚:</b> <code>{}</code>".format(
+            START_IMG, caption= "#MAYILTHEELITEBOY 𝙰𝙻𝚆𝙰𝚈𝚂 𝙾𝙿!\n<b>𝚄𝙿 𝚃𝙸𝙼𝙴 ⌚:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/V3NOM_SUPPORT")]]
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/MG_Support_Group")]]
             ),
         )
 
@@ -372,7 +372,7 @@ def layla_about_callback(update, context):
                  \n\n_TGN's licensed under the GNU General Public License v3.0_
                  \n❍ TGN  @MG_Support_Group
                  \n❍ Support Group @MG_Support_Group
-                 \n❍ Assistant @TGN\_Assistant.
+                 \n❍ Assistant @Zhubjhcyccuvu.
                  \nHere is the [💾Repository](My Source Is Always Private).
                  \n\nIf you have any question about bot, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
@@ -400,8 +400,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *ELITEBOY*
-                 \nHere is the [Source Code](pornhub.com) .""",
+            text=""" Hi..🤗 I'm *Mayil*
+                 \nHere is the [Commands](https://t.me/mgbotslists/9) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
